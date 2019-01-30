@@ -3,7 +3,6 @@ import numpy
 import random
 from tkinter import *
 from tkinter import messagebox
-import os
 # Initialize our graphics frame named Tk and the dialog box is titles Tic Tac Toe
 tk=Tk()
 tk.title("Tic Tac Toe")
@@ -71,7 +70,6 @@ def createButtons():
     global boolAr
     global arryButtons
     global state
-    rows, columns = os.popen('stty size', 'r').read().split()
     h = 5
     w = 10
 
