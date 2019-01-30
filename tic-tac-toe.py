@@ -7,7 +7,7 @@ from tkinter import messagebox
 tk=Tk()
 tk.title("Tic Tac Toe")
 
-# global variables
+# global variables for the program
 
 arryButtons = []
 boolAr = [0, 0, 0, 0, 0, 0, 0, 0, 0]
