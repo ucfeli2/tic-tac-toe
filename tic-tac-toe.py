@@ -46,7 +46,7 @@ def ttt(i):
                 messagebox.showinfo("Player O","Winner is O !!!")
 
          if(state == 0 and moves == 9):
-                messagebox.showinfo("Draw", "It is a draw. You are not smart enough to win at this. STEM isn't for you.")
+                messagebox.showinfo("Draw", "You've scratched the cat!")
                 reset_game()
          if (state != 0):
              reset_game()
